@@ -32,7 +32,7 @@ const Hero: FC<THeroProps> = ({
           height={18}
         />
         <span className="text-center text-base font-light leading-[normal] text-[#1B1B16]">
-          Powered by Together AI
+          Supported by Together AI
         </span>
       </a>
       <h2 className="bg-custom-gradient bg-clip-text pb-7 pt-2 text-center text-3xl font-semibold leading-[normal] lg:text-[64px]">
@@ -76,7 +76,7 @@ const Hero: FC<THeroProps> = ({
         Follow us!{" "}
         <span className="text-sm font-medium underline">
           <a
-            href="https://github.com/Nutlope/turboseek"
+            href="https://github.com/OmniS0FT"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -102,7 +102,7 @@ const suggestions: suggestionType[] = [
   },
   {
     id: 2,
-    name: "How to lose fat in a week?",
+    name: "How to lose belly fat?",
     icon: "/img/icon _dumbell_.svg",
   },
   {

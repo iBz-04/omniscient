@@ -64,14 +64,14 @@ const Hero: FC<THeroProps> = ({
 
       {/* Github link section */}
       <p className="mt-8 text-center text-sm font-light leading-[normal] text-[#1B1B16]">
-        Follow us!{" "}
+        Follow On {" "}
         <span className="text-sm font-medium underline">
           <a
-            href="https://github.com/OmniS0FT"
+            href="https://github.com/iBz-04"
             target="_blank"
             rel="noopener noreferrer"
           >
-            On github.
+            github!
           </a>
         </span>
       </p>

@@ -9,7 +9,7 @@ let title = "Omniscient – Smarter Surfing";
 let description =
   "Surf the Internet faster and smarter with the omniscient search engine";
 let url = "https://omniscient-xi.vercel.app";
-let ogimage = "hhttps://res.cloudinary.com/diekemzs9/image/upload/v1733951305/Untitled_design_se7s7s.png";
+let ogimage = "https://res.cloudinary.com/diekemzs9/image/upload/v1733951305/Untitled_design_se7s7s.png";
 let sitename = "Omniscient";
 
 export const metadata: Metadata = {

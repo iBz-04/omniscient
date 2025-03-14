@@ -4,32 +4,25 @@
 </a>
 
 <p align="center">
-  An smart AI search engine. 
+  An smart internet surf engine powered by open source ai models. 
 </p>
 
 
-
-## Tech stack
-
-- Next.js 
-- Together AI 
-- Llama 3.1 8B and 70B for the LLMs
-- Bing API
-- Helicone 
-- Plausible 
-
 ## Working Mechanism
 
-1. Take in a user's question
-2. Make a request to the search API to look up the top 6 results and show them
-3. Scrape text from the 6 links bing sent back and store it as context
-4. Make a request to Llama 3.1 70B with the user's question + context & stream it back to the user
-5. Make another request to Llama 3.1 8B to come up with 3 related questions the user can follow up with
+→ Step 1: Receive the User's Question  
+   The process starts by capturing the user's input question.
+
+→ Step 2: Retrieve Top 6 Search Results  
+   The question is passed to our Search API, which returns the 6 most relevant links.
+
+→ Step 3: Scrape and Store Context  
+   Text is scraped from each of the 6 links to compile necessary context information.
+
+→ Step 4: Generate a Detailed Answer with Llama 3.1 70B  
+   The user's question and the gathered context are sent to Llama 3.1 70B, which streams back a comprehensive answer in real time.
+
+→ Step 5: Suggest 3 Follow-Up Questions with Llama 3.1 8B  
+   Finally, Llama 3.1 8B is used to generate three additional questions that the user might ask to explore the topic further.
 
 
-
-## Inspiration
-
-- Perplexity
-- You.com
-- Lepton search
